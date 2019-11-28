@@ -8,4 +8,6 @@ npm install
 서버 실행
 ```
 supervisor app.js
+
+으아아아
 ```
