@@ -9,6 +9,4 @@ npm install
 ```
 supervisor app.js
 
-으아아아
-```
-알ㄴ아러ㅏㅁㄴ어리ㅏ
+확인바람

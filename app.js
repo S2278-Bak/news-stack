@@ -14,13 +14,13 @@ app.use(function(req, res, next) {
   res.locals.user = req.session.user;
   next();
 });
-
+아아ㅏ
 /* Database */
 var mysql = require('mysql');
 var conn = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
-  password : 'mysql1234',
+  password : 'rlehfh2278!~',
   database : 'news_stack',
   port: 3306  /* 8889 on Mac client */
 });
