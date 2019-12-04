@@ -14,13 +14,13 @@ app.use(function(req, res, next) {
   res.locals.user = req.session.user;
   next();
 });
-아아ㅏ
+
 /* Database */
 var mysql = require('mysql');
 var conn = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
-  password : 'rlehfh2278!~',
+  password : 'Djajsk!8520',
   database : 'news_stack',
   port: 3306  /* 8889 on Mac client */
 });
@@ -66,6 +66,8 @@ app.use('/account', account);
 /* admin app */
 var account = require('./routes/admin.js')(app, conn, upload);
 app.use('/admin', account);
+
+
 
 /* Port listening */
 app.listen(port, () => console.log(
